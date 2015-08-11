@@ -1,5 +1,5 @@
 # Site settings
-title:       DevNG
+title:       "&lt;/DevNG&gt;"
 email:       n.g.georgiev@gmail.com
 author:      Nikolay Georgiev
 description: "Next Generation Development"
@@ -16,11 +16,11 @@ show_post_footers:  false
 show_social_icons:  true
 
 # Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
+# disqus_shortname: devng-blog
 
 # Social icons
 github_username: devng
+bitbucket_username: devng
 stackoverflow_id: 2119552
 twitter_username: ngg_online
 google_plus_id:

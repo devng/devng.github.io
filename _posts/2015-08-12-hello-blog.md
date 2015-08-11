@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Hello, Blog
-date:       2015-08-11 01:00:01
-summary:    Place holder for my first blog
+date:       2015-08-12
+summary:    Placeholder for my first blog post
 categories: jekyll pixyll
 ---
 
