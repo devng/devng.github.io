@@ -16,7 +16,7 @@ show_post_footers:  false
 show_social_icons:  true
 
 # Disqus post comments
-# disqus_shortname: devng-blog
+disqus_shortname: devng-blog
 
 # Social icons
 github_username: devng
@@ -47,10 +47,12 @@ share_hackernews: false
 
 # Build settings
 markdown:     kramdown
+encoding:     'utf-8'
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
+permalink:    '/blog/:year/:month/:day/:title/'
+paginate_path: '/blog/page:num'
+paginate:     5
 sass:
   compressed: true
 gems:
