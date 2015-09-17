@@ -4,7 +4,7 @@ email:       n.g.georgiev@gmail.com
 author:      Nikolay Georgiev
 description: "Next Generation Development"
 baseurl:     ""
-url:         "http://devng.com"
+url:         "http://blog.devng.com"
 
 # Google analytics
 google_analytics:
@@ -50,8 +50,8 @@ markdown:     kramdown
 encoding:     'utf-8'
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    '/blog/:year/:month/:day/:title/'
-paginate_path: '/blog/page:num'
+permalink:    '/:year/:month/:day/:title/'
+paginate_path: '/page:num'
 paginate:     5
 sass:
   compressed: true
