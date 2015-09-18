@@ -38,7 +38,9 @@ layout: default
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
-    var disqus_url        = '{{ site.url }}{{ page.id }}/'
+    // We need the blog prefix due to the URL: devng.com/blog -> blog.devng.com
+    var disqus_identifier = '/blog{{ page.id }}';
+    var disqus_title      = '{{ post.title }}';
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
