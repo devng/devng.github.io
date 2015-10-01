@@ -20,13 +20,7 @@ This script only validates your JS source code, it does not change it. It also s
 
 With the help of the `checkstyle-js.sh` script we can integrate code formatting validations as part of our CI build, so that the build will fail if the developer submits a malformated JS/JSON file. Here is a sample configuration for [Travis CI](https://travis-ci.org/) or [Vexor CI](https://vexor.io/) for accomplishing this task:
 
-```
-node_js:
-  - '0.12'
-before_script:
-  - npm install -g jsfmt
-script: npm install && ./checkstyle-js.sh && npm test
-```
+{% gist d85752dfb4577bb6fb20 %}
 
 ## Auto Format
 
